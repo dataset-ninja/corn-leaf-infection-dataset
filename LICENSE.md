@@ -1,0 +1,1 @@
+License is unknown for the Corn Leaf Infection Dataset dataset.
