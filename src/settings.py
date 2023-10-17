@@ -59,7 +59,7 @@ BLOGPOST: Optional[
 ] = "https://q-viper.github.io/2020/10/19/corn-infection-detection-data-preparation/"
 REPOSITORY: Optional[
     Union[str, List[str], Dict[str, str]]
-] = "https://github.com/q-viper/Corn-Infection-Detection/tree/master"
+] = {"Github": "https://github.com/q-viper/Corn-Infection-Detection/tree/master"}
 
 CITATION_URL: Optional[str] = "https://www.kaggle.com/qramkrishna/corn-leaf-infection-dataset"
 AUTHORS: Optional[List[str]] = ["Ramkrishna Acharya"]
