@@ -59,10 +59,11 @@ BLOGPOST: Optional[
 ] = "https://q-viper.github.io/2020/10/19/corn-infection-detection-data-preparation/"
 REPOSITORY: Optional[
     Union[str, List[str], Dict[str, str]]
-] = {"Github": "https://github.com/q-viper/Corn-Infection-Detection/tree/master"}
+] = {"GitHub": "https://github.com/q-viper/Corn-Infection-Detection/tree/master"}
 
 CITATION_URL: Optional[str] = "https://www.kaggle.com/qramkrishna/corn-leaf-infection-dataset"
 AUTHORS: Optional[List[str]] = ["Ramkrishna Acharya"]
+AUTHORS_CONTACTS: Optional[List[str]] = ["https://q-viper.github.io/", "https://github.com/q-viper", "https://www.linkedin.com/in/qramkrishna"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = None
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = None
@@ -118,6 +119,7 @@ def get_settings():
     settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
